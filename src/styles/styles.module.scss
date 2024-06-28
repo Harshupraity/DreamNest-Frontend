@@ -1,0 +1,10 @@
+// styles.module.scss
+@import './_variables';
+
+.button {
+  @include buttonStyle;
+}
+
+.shadow {
+  @include shadow;
+}
